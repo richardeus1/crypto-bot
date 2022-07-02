@@ -4,13 +4,20 @@ Mounting a crypto bot in GCP for automated trades.
 First Configure GCP and install Jupyter.
 
 Step 1 : Create a free account in Google Cloud with 300$ credit
+
+
 For this step, you will have to put your payment information and verify your account. It’s the most simple step. If you fail this step, close your laptop and think where you are going in life.
 
 Step 2 : Create a new project
 Click on the three dots shown in the image below and then click on the + sign to create a new project.
 
+![1*SbaYPKE5_MmARsRlHU0qkg](https://user-images.githubusercontent.com/12050212/177019065-fe9dd8f1-19db-4761-abd6-03f6ba88d441.png)
+
+
 Step 3 : Create a VM instance
 Click on the three lines on the upper left corner, then on the compute option, click on ‘Compute Engine’
+
+![1*5Z7XbsnxB0Cb3g6UEAVuKw](https://user-images.githubusercontent.com/12050212/177019081-5ff22c31-07fd-41fd-b908-975f380c47f7.png)
 
 Now click on ‘Create new instance’. Name your instance, select zone as ‘ us-west1-b’. Choose your ‘machine type’. (I chose 8v CPUs).
 Select your boot disk as ‘Ubuntu 16.04 LTS’. Under the firewall options tick both ‘http’ and ‘https’ (very important). Then, choose the disk tab and untick ‘ Delete boot disk when instance is deleted’.
