@@ -5,6 +5,7 @@ First Configure GCP and install Jupyter.
 
 Step 1 : Create a free account in Google Cloud with 300$ credit
 For this step, you will have to put your payment information and verify your account. It’s the most simple step. If you fail this step, close your laptop and think where you are going in life.
+
 Step 2 : Create a new project
 Click on the three dots shown in the image below and then click on the + sign to create a new project.
 
@@ -34,6 +35,7 @@ Now, click on the ‘Firewall rules’ setting under Networking.
 Click on ‘Create Firewall Rules’ and refer the below image:
 
 Under protocols and ports you can choose any port. I have chosen tcp:5000 as my port number. Now click on the save button.
+
 Step 6: Start your VM instance
 Now start your VM instance. When you see the green tick click on SSH. This will open a command window and now you are inside the VM.
 
@@ -51,6 +53,7 @@ source ~/.bashrc
 Now, install other softwares :
 pip install tensorflow
 pip install keras
+
 Step 8: Set up the VM server
 Open up a SSH session to your VM. Check if you have a Jupyter configuration file:
 ls ~/.jupyter/jupyter_notebook_config.py
