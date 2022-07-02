@@ -1,2 +1,2 @@
 # crypto-bot
-mounting a crypto bot in gcp for automated trades
+mounting a crypto bot in GCP for automated trades
