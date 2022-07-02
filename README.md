@@ -1,7 +1,7 @@
 # crypto-bot
 Mounting a crypto bot in GCP for automated trades using GCP, Binance and Jupyter.
 
-First Configure GCP and install Jupyter.
+CONFIGURING GCP AND INSTALLING JUPYTER.
 
 Step 1 : Create a free account in Google Cloud with 300$ credit
 
