@@ -1,5 +1,5 @@
 # crypto-bot
-Mounting a crypto bot in GCP for automated trades.
+Mounting a crypto bot in GCP for automated trades using GCP, Binance and Jupyter.
 
 First Configure GCP and install Jupyter.
 
@@ -22,29 +22,51 @@ Click on the three lines on the upper left corner, then on the compute option, c
 Now click on ‘Create new instance’. Name your instance, select zone as ‘ us-west1-b’. Choose your ‘machine type’. (I chose 8v CPUs).
 Select your boot disk as ‘Ubuntu 16.04 LTS’. Under the firewall options tick both ‘http’ and ‘https’ (very important). Then, choose the disk tab and untick ‘ Delete boot disk when instance is deleted’.
 
+![1*fg1j6JOFABOxflvcfXQ7Cw](https://user-images.githubusercontent.com/12050212/177019110-90618697-c393-432a-87c1-cbcff00f14a0.png)
+
+
 If you click on ‘customize’, you will be able to find options for using GPUs. You can choose between 2 NVIDIA GPUs.
+
+![1*LMBZwYTq9Ivk6fW4a2bqOw](https://user-images.githubusercontent.com/12050212/177019116-625ca1a9-466d-45dc-9dfb-10739f7b6461.png)
+
 
 Some firewall settings:-
 
+![1*gQURWhpn4s3bHDwUfErztg](https://user-images.githubusercontent.com/12050212/177019129-1082d3a6-1ad3-4893-b843-af2a39f10833.png)
+
 Now click on ‘Create’ and your instance is ready!
+
+![1*fxFUT_XW-xRvTLB6uPl07g](https://user-images.githubusercontent.com/12050212/177019134-3dca9f12-42b9-4f17-8f92-d09fc0f2a87d.png)
 
 Your new VM instance should look something like this. Note down the External IP.
 IMPORTANT : DON’T FORGET TO STOP YOUR GPU INSTANCE AFTER YOU ARE DONE BY CLICKING ON THE THREE DOTS ON THE IMAGE ABOVE AND SELECTING STOP. OTHERWISE GCP WILL KEEP CHARGING YOU ON AN HOURLY BASIS.
 
+![1*eb1aMVZCc085W1qi7gtpLg](https://user-images.githubusercontent.com/12050212/177019142-24a55363-f123-4310-8126-ece18bb2e7d9.png)
+
 Step 4: Make external IP address as static
 By default, the external IP address is dynamic and we need to make it static to make our life easier. Click on the three horizontal lines on top left and then under networking, click on VPC network and then External IP addresses.
 
+![1*5K6zNphpR1cUtxIryfaxkw](https://user-images.githubusercontent.com/12050212/177019146-28400e70-7d18-48ad-a0e2-6d828af29604.png)
+
 Change the type from Ephemeral to Static.
+
+![1*pwRPSLksp-pm1m4wyWWpVw-2](https://user-images.githubusercontent.com/12050212/177019159-7b03efdd-cb24-4d4f-83da-9df4c911ef69.png)
 
 Step 5: Change the Firewall setting
 Now, click on the ‘Firewall rules’ setting under Networking.
 
+![1*5K6zNphpR1cUtxIryfaxkw-2](https://user-images.githubusercontent.com/12050212/177019166-d7c7543e-48d7-4702-b61a-08fd53e2bdbd.png)
+
 Click on ‘Create Firewall Rules’ and refer the below image:
+
+![1*R3jRo09kec4ygt1fUcZ_uA](https://user-images.githubusercontent.com/12050212/177019175-dce8dced-9ab8-4e46-b07b-c906d47e2e79.png)
 
 Under protocols and ports you can choose any port. I have chosen tcp:5000 as my port number. Now click on the save button.
 
 Step 6: Start your VM instance
 Now start your VM instance. When you see the green tick click on SSH. This will open a command window and now you are inside the VM.
+
+![1*J1iV3ZeGc_SgfuRQHzWBnQ](https://user-images.githubusercontent.com/12050212/177019181-d9e8649b-7f61-4bdb-9939-7d648ed70928.png)
 
 Step 7 : Install Jupyter notebook and other packages
 In your SSH terminal, enter:
@@ -72,14 +94,20 @@ c.NotebookApp.ip = '*'
 c.NotebookApp.open_browser = False
 c.NotebookApp.port = <Port Number>
 It should look something like this :
+  
+![1*SwFnrGUO0gWSdO6z8oly_A](https://user-images.githubusercontent.com/12050212/177019194-d01f5be7-5fbc-4e7d-a0ed-b5d4432cbb78.png)
 
 Step 9 : Launching Jupyter Notebook
 To run the jupyter notebook, just type the following command in the ssh window you are in :
 jupyter-notebook --no-browser --port=<PORT-NUMBER>
 Once you run the command, it should show something like this:
+  
+![1*dEi_LCzhpsRy7cDRppVE-A](https://user-images.githubusercontent.com/12050212/177019201-a737ac06-907b-423a-83e2-a0491a4bc02f.png)
 
 Now to launch your jupyter notebook, just type the following in your browser:
 http://<External Static IP Address>:<Port Number>
 where, external ip address is the ip address which we made static and port number is the one which we allowed firewall access to.
+  
+![1*7ELRH-iVecVLtFo66jduxQ](https://user-images.githubusercontent.com/12050212/177019213-1d6414d2-7fee-4443-912f-55d28e3e7a39.png)
 
 Congratulations! You successfully installed jupyter notebook on GCP!
