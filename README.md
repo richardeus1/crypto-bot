@@ -135,3 +135,8 @@ Step 8: Add the code in the new python file (I added it in a separate row each l
   ![Screen Shot 2022-07-03 at 2 41 26 AM](https://user-images.githubusercontent.com/12050212/177028353-0ec8419f-dfd3-4bd1-b4c4-922a83b6ddb5.png)
   
 Step 9: On Jupyter, create another python file called Binance_keys
+ 
+Step 10: In Binance_keys, paste the API key and API secret previously copied
+ 
+![Screen Shot 2022-07-03 at 2 46 58 AM](https://user-images.githubusercontent.com/12050212/177028461-8be14e68-e11b-4e9e-925c-46217e870f43.png)
+
