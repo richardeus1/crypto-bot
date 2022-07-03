@@ -112,7 +112,7 @@ where, external ip address is the ip address which we made static and port numbe
 
 Congratulations! You successfully installed jupyter notebook on GCP!
   
-ON BINANCE.
+BINANCE SETUP.
 
 Step 1: Go to API Management.
   
@@ -121,3 +121,5 @@ Step 2: Create new API key
 Step 3: Enable Reading and Enable Spot & Margin Trading
   
 ![Screen Shot 2022-07-03 at 2 04 05 AM](https://user-images.githubusercontent.com/12050212/177027342-4b07e20c-a525-4ac8-8234-939bdf61b066.png)
+
+Step 4: On terminal do: pip install python-binance
