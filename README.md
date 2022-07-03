@@ -124,7 +124,7 @@ Step 4: Enable Reading and Enable Spot & Margin Trading
   
 ![Screen Shot 2022-07-03 at 2 04 05 AM](https://user-images.githubusercontent.com/12050212/177027342-4b07e20c-a525-4ac8-8234-939bdf61b066.png)
 
-ON JUPYTER.
+ON TERMINAL AND JUPYTER.
   
 Step 1: On terminal do: pip install python-binance
 
