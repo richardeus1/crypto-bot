@@ -118,10 +118,12 @@ Step 1: Go to API Management.
   
 Step 2: Create new API key
 
-Step 3: Enable Reading and Enable Spot & Margin Trading
+Step 3: Copy API key and API secret
+
+Step 4: Enable Reading and Enable Spot & Margin Trading
   
 ![Screen Shot 2022-07-03 at 2 04 05 AM](https://user-images.githubusercontent.com/12050212/177027342-4b07e20c-a525-4ac8-8234-939bdf61b066.png)
 
-Step 4: On terminal do: pip install python-binance
+Step 5: On terminal do: pip install python-binance
 
-Step 5: Install pandas: pip install pandas
+Step 6: Install pandas: pip install pandas
