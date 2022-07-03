@@ -124,23 +124,25 @@ Step 4: Enable Reading and Enable Spot & Margin Trading
   
 ![Screen Shot 2022-07-03 at 2 04 05 AM](https://user-images.githubusercontent.com/12050212/177027342-4b07e20c-a525-4ac8-8234-939bdf61b066.png)
 
-Step 5: On terminal do: pip install python-binance
+ON JUPYTER.
+  
+Step 1: On terminal do: pip install python-binance
 
-Step 6: Install pandas: pip install pandas
+Step 2: Install pandas: pip install pandas
 
-Step 7: On Jupyter, create a new python file and call it cryptoBot
+Step 3: On Jupyter, create a new python file and call it cryptoBot
 
-Step 8: Add the code in the new python file (I added it in a separate row each line of code, but you can add it all in the same row)
+Step 4: Add the code in the new python file (I added it in a separate row each line of code, but you can add it all in the same row)
 
   ![Screen Shot 2022-07-03 at 2 41 26 AM](https://user-images.githubusercontent.com/12050212/177028353-0ec8419f-dfd3-4bd1-b4c4-922a83b6ddb5.png)
   
-Step 9: On Jupyter, create another python file called Binance_keys
+Step 5: On Jupyter, create another python file called Binance_keys
  
-Step 10: In Binance_keys, paste the API key and API secret previously copied
+Step 6: In Binance_keys, paste the API key and API secret previously copied
  
 ![Screen Shot 2022-07-03 at 2 46 58 AM](https://user-images.githubusercontent.com/12050212/177028461-8be14e68-e11b-4e9e-925c-46217e870f43.png)
 
-Step 11: Return to cryptoBot file, and finish the code.
+Step 7: Return to cryptoBot file, and finish the code.
   
 ![Screen Shot 2022-07-03 at 3 09 04 AM](https://user-images.githubusercontent.com/12050212/177029158-9df5c2b5-5548-41dc-90d3-5208bcf6a64b.png)
 
