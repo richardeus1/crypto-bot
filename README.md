@@ -98,7 +98,7 @@ It should look something like this :
 ![1*SwFnrGUO0gWSdO6z8oly_A](https://user-images.githubusercontent.com/12050212/177019194-d01f5be7-5fbc-4e7d-a0ed-b5d4432cbb78.png)
 
 Step 9: Launching Jupyter Notebook
-To run the jupyter notebook, just type the following command in the ssh window you are in :
+  To run the jupyter notebook, just type the following command in the ssh window you are in :
 jupyter-notebook --no-browser --port=<PORT-NUMBER>
 Once you run the command, it should show something like this:
   
