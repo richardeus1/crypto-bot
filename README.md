@@ -1,5 +1,5 @@
 # crypto-bot
-Mounting a crypto bot in GCP for automated trades using GCP, Binance and Jupyter.
+Mounting a crypto bot in GCP for automated trades using GCP, Binance and Jupyter. Is a very simple code using scalping trading strategy, but at the same time, with a bullish attitude in the long term.
 
 CONFIGURING GCP AND INSTALLING JUPYTER.
 
