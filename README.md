@@ -123,3 +123,5 @@ Step 3: Enable Reading and Enable Spot & Margin Trading
 ![Screen Shot 2022-07-03 at 2 04 05 AM](https://user-images.githubusercontent.com/12050212/177027342-4b07e20c-a525-4ac8-8234-939bdf61b066.png)
 
 Step 4: On terminal do: pip install python-binance
+
+Step 5: Install pandas: pip install pandas
