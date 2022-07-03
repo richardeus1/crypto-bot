@@ -147,3 +147,6 @@ Step 7: Return to cryptoBot file, and finish the code.
 ![Screen Shot 2022-07-03 at 3 09 04 AM](https://user-images.githubusercontent.com/12050212/177029158-9df5c2b5-5548-41dc-90d3-5208bcf6a64b.png)
 
 On Jupyter you execute each line by clicking on Run button. And the order execution for each line, will be according to the numeration.
+  
+![Screen Shot 2022-07-03 at 3 15 41 AM](https://user-images.githubusercontent.com/12050212/177029355-138fa178-a049-485f-a570-87437ae446a3.png)
+
