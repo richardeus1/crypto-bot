@@ -127,3 +127,11 @@ Step 4: Enable Reading and Enable Spot & Margin Trading
 Step 5: On terminal do: pip install python-binance
 
 Step 6: Install pandas: pip install pandas
+
+Step 7: On Jupyter, create a new python file
+
+Step 8: Add the code in the new python file (I added it in a separate row each line of code, but you can add it all in the same row)
+
+  ![Screen Shot 2022-07-03 at 2 41 26 AM](https://user-images.githubusercontent.com/12050212/177028353-0ec8419f-dfd3-4bd1-b4c4-922a83b6ddb5.png)
+  
+Step 9: 
