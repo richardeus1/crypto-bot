@@ -134,4 +134,4 @@ Step 8: Add the code in the new python file (I added it in a separate row each l
 
   ![Screen Shot 2022-07-03 at 2 41 26 AM](https://user-images.githubusercontent.com/12050212/177028353-0ec8419f-dfd3-4bd1-b4c4-922a83b6ddb5.png)
   
-Step 9: 
+Step 9: On Jupyter, create another python file called Binance_keys
