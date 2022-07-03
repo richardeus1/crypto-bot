@@ -97,7 +97,7 @@ It should look something like this :
   
 ![1*SwFnrGUO0gWSdO6z8oly_A](https://user-images.githubusercontent.com/12050212/177019194-d01f5be7-5fbc-4e7d-a0ed-b5d4432cbb78.png)
 
-Step 9 : Launching Jupyter Notebook
+Step 9: Launching Jupyter Notebook
 To run the jupyter notebook, just type the following command in the ssh window you are in :
 jupyter-notebook --no-browser --port=<PORT-NUMBER>
 Once you run the command, it should show something like this:
@@ -111,3 +111,13 @@ where, external ip address is the ip address which we made static and port numbe
 ![1*7ELRH-iVecVLtFo66jduxQ](https://user-images.githubusercontent.com/12050212/177019213-1d6414d2-7fee-4443-912f-55d28e3e7a39.png)
 
 Congratulations! You successfully installed jupyter notebook on GCP!
+  
+ON BINANCE.
+
+Step 1: Go to API Management.
+  
+Step 2: Create new API key
+
+Step 3: Enable Reading and Enable Spot & Margin Trading
+  
+![Screen Shot 2022-07-03 at 2 04 05 AM](https://user-images.githubusercontent.com/12050212/177027342-4b07e20c-a525-4ac8-8234-939bdf61b066.png)
