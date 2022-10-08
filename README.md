@@ -120,7 +120,7 @@ Step 2: Create new API key
 
 Step 3: Copy API key and API secret
 
-Step 4: Enable Reading and Enable Spot & Margin Trading
+Step 4: Enable Reading and Enable Spot & Margin Trading. Also enable Enable Margin Loan, Repay & Transfer
   
 ![Screen Shot 2022-07-03 at 2 04 05 AM](https://user-images.githubusercontent.com/12050212/177027342-4b07e20c-a525-4ac8-8234-939bdf61b066.png)
 
