@@ -122,7 +122,9 @@ Step 3: Copy API key and API secret
 
 Step 4: Enable Reading and Enable Spot & Margin Trading. Also enable Enable Margin Loan, Repay & Transfer
   
-![Screen Shot 2022-07-03 at 2 04 05 AM](https://user-images.githubusercontent.com/12050212/177027342-4b07e20c-a525-4ac8-8234-939bdf61b066.png)
+![177027342-4b07e20c-a525-4ac8-8234-939bdf61b066](https://user-images.githubusercontent.com/12050212/194678209-c278e83b-97e0-4d47-89e6-10edca8ed540.png)
+
+  
 
 ON TERMINAL AND JUPYTER.
   
